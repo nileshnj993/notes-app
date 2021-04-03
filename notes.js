@@ -36,6 +36,8 @@ const addNote = (title,body) => {
     // duplicateNotes keeps those notes in the array that have title same as title of new note (it stores duplicate notes)
     // if note.title == title then the note is stored in duplicateNotes. Filter method takes care of element by element access
     
+    // debugger - uses v8 engine for debugging. Use chrome://inspect to see details
+    // execution stops here. need to run app using node inspect ...
     // filter goes through all elements even if match found. This is waste of time and computation so we use find that only looks for one match. 
     if(duplicateNote===undefined){ // if no duplicates, add the note
     notes.push({
