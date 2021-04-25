@@ -3,7 +3,7 @@ Node.js implementation of a basic **Note taking app**.
 
 **To run locally:**
 1. Clone the repository and ensure you have Node.js installed.
-2. npm install
+2. Use npm install once you navigate to the right folder.
 3. The functionalities provided are - Adding a note, Removing a note, Listing all notes, and Reading a particular note. The notes are stored in .json format with a title and body attribute and the functionality is provided via command line arguments
 
 Example Usage:
